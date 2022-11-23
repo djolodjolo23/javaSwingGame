@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class GameWindow extends JFrame {
 
-  public GameWindow() {
+  public GameWindow(GamePanel gamePanel) {
     setTitle("Game");
     setSize(400, 400);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -12,12 +12,10 @@ public class GameWindow extends JFrame {
     setResizable(false);
     // this is the correct spot for setVisible(true)
     // needs to be at the bottom.
+    add(gamePanel);
     setVisible(true);
   }
 
-  public static void main(String[] args) {
-    new GameWindow();
-  }
 }
 
 

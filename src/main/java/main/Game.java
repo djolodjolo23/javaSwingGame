@@ -4,9 +4,12 @@ package main;
  * Everything starts here.
  */
 public class Game {
+  private GameWindow window;
+  private GamePanel panel;
 
   public Game() {
-    GameWindow window = new GameWindow();
+    panel = new GamePanel();
+    window = new GameWindow(panel);
   }
 
 }
