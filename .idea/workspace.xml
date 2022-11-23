@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a952ae00-7393-4a2d-ad83-8d2768f878ad" name="Changes" comment="JFrame and JPanel tied together, added a rectangle for testing inside the JPanel.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inputs/KeyboardInputs.java" afterDir="false" />
+    <list default="true" id="a952ae00-7393-4a2d-ad83-8d2768f878ad" name="Changes" comment="Added a MouseInputs class that implements both MouseListener and MouseMotionListener interfaces.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inputs/KeyboardInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inputs/KeyboardInputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inputs/MouseInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inputs/MouseInputs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
       <updated>1669157347692</updated>
       <workItem from="1669157350520" duration="278000" />
       <workItem from="1669157637141" duration="141000" />
-      <workItem from="1669239749951" duration="2072000" />
+      <workItem from="1669239749951" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1669157374266</created>
@@ -120,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669241346891</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Keyboard inputs class added.">
+      <created>1669241888964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669241888964</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added a MouseInputs class that implements both MouseListener and MouseMotionListener interfaces.">
+      <created>1669242021455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669242021455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +157,8 @@
     <MESSAGE value="Added a game window(JFrame class) and the Game class." />
     <MESSAGE value="GamePanel class added." />
     <MESSAGE value="JFrame and JPanel tied together, added a rectangle for testing inside the JPanel." />
-    <option name="LAST_COMMIT_MESSAGE" value="JFrame and JPanel tied together, added a rectangle for testing inside the JPanel." />
+    <MESSAGE value="Keyboard inputs class added." />
+    <MESSAGE value="Added a MouseInputs class that implements both MouseListener and MouseMotionListener interfaces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a MouseInputs class that implements both MouseListener and MouseMotionListener interfaces." />
   </component>
 </project>
