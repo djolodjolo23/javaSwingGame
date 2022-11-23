@@ -10,6 +10,8 @@ public class GameWindow extends JFrame {
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setLocationRelativeTo(null);
     setResizable(false);
+    // this is the correct spot for setVisible(true)
+    // needs to be at the bottom.
     setVisible(true);
   }
 
